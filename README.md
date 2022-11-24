@@ -1,4 +1,4 @@
-# OKP4 Testnet
+# Tutorial OKP4 Testnet
 
 [website](https://okp4.network/#news)
 
