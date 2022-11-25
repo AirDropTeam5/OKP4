@@ -29,7 +29,7 @@ Silahkan ikuti [manual guide](https://github.com) Jika Anda lebih suka menyiapka
 
 ## Opsi 2 Instal Otomatis
 ```
-wget -qO okp4.sh https://raw.githubusercontent.com/AirDropTeam5/OKP4/main/okp4.sh && chmod +x okp4.sh && ./okp4.sh
+wget -qO okp4.sh https://raw.githubusercontent.com/Art-Sy5team/OKP4/main/okp4.sh && chmod +x okp4.sh && ./okp4.sh
 
 ```
 ## 2. Load Sistem
@@ -122,7 +122,7 @@ okp4d tx staking create-validator \
   --chain-id $OKP4_CHAIN_ID
 ```
 
-## 9 Delete Node (Optional Kalo Pengen Ngapus Aja Pake)
+## 9 Delete Node (Optional)
 
 Perintah ini akan sepenuhnya menghapus node dari server. Gunakan dengan risiko Anda sendiri!
 ```
