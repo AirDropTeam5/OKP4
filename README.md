@@ -168,3 +168,6 @@ okp4d query staking validators --limit 2000 -o json | jq -r '.validators[] | sel
 ```
 okp4d query staking validators --limit 2000 -o json | jq -r '.validators[] | select(.status=="BOND_STATUS_UNBONDED") | [.operator_address, .status, (.tokens|tonumber / pow(10; 6)), .description.moniker] | @csv' | column -t -s"," | sort -k3 -n -r
 ```
+
+<p style="font-size:15px" align="center">
+<a href="https://discord.gg/EAKEdZU6c8" target="_blank">Join Discord Art-Sy5team <img src="https://user-images.githubusercontent.com/50621007/176236430-53b0f4de-41ff-41f7-92a1-4233890a90c8.png" width="25"/></a>
